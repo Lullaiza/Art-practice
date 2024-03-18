@@ -18,10 +18,25 @@ body {
 
 
 .header-line {
-  padding-top: 20%;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.header-logo {
+  object-fit: contain;
+}
+
+.logo__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo__img {
+  width: 100%;
+  height: 100%;
 }
 
 .nav-item {
@@ -101,8 +116,8 @@ body {
   font-size: 50px;
   font-weight: 400;
 
-  text-align: center;
-  position: absolute;
+  text-align: left;
+  position: relative;
   left: 0;
 
   margin-top: 50px;
