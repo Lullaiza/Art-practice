@@ -224,6 +224,7 @@ header{
 	display: flex;
 	padding: 80px;
 	justify-content: space-between;
+	font-family: calibri;
 }
 .foot1{
 	justify-content: center;
@@ -236,7 +237,6 @@ header{
 	width: 109px;
 	height: 109px;
 	border-radius: 50%;
-	background: #000000;
 	margin-right: 20px;
 	}
 .foot{
