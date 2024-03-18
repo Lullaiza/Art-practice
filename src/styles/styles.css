@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  background-image: url(bg2.jpg);
+  background-image: url(titylnic.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
 }
 
 .nav-item {
-  color: #ff0000;
+  color: #000000;
   text-decoration: none;
   font-weight: 900;
   font-size: 14px;
