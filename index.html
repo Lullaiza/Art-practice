@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простая HTML разметка</title>
+	<link rel="stylesheet" type="text/css" href="src/styles/style.css">
+	<link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main_container">
+		<header>
+			<img src="src/img/logo-01.png" class="main_photo">
+			<a href="#" class="nav-item nav-item-active">О ЦЕНТРЕ</a>
+			<a href="#" class="nav-item nav-item-active">РАСПИСАНИЕ</a>
+			<a href="#" class="nav-item nav-item-active">АКЦИИ</a>
+			<a href="#" class="nav-item nav-item-active">ПРАЙС-ЛИСТ</a>
+			<a href="#" class="nav-item nav-item-active">КОНТАКТЫ</a>
+			<div class="menu_contact">
+				<span class="nav-item">+7(999) 111-00-11</span>
+				<span class="nav-item">Ул.Трудоголик, д.1</span>
+			</div>
+			<a href="#" class="btn nav-item lkbttn">Личный кабинет <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;" ></i></a>
+		</header>
+		
+		<div class="slider-container">
+		  <div class="slides">
+			<div class="slide"><img src="photo1.jpg"></div>
+			<div class="slide"><img src="photo2.jpg"></div>
+			<div class="slide"><img src="photo3.jpg"></div>
+		  </div>
+		  <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+		  <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+		  <div class="text-overlay">
+			<h2>ОФЛАЙН</h2>
+			<h3>ТРЕНАЖЁРНЫЙ</br>ЦЕНТР ЛЕНИ</h3>
+			<a href="#" class="btn">Записаться на бесплатную пробную тренировку <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;" ></i></a>
+		  </div>
+		</div>
+		
+		<div class="photo_list">
+			<div class="photo_el">
+				<img src="photo1.jpg"></img>
+				<a href="#" class="btn bttn2">Подробнее <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;" ></i></a>
+			</div>
+			<div class="photo_el">
+				<img src="photo2.jpg">
+				<a href="#" class="btn bttn2">Подробнее <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;" ></i></a>
+			</div>
+			<div class="photo_el">
+				<img src="photo3.jpg">
+				<a href="#" class="btn bttn2">Подробнее <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;" ></i></a>
+			</div>
+		</div>
+		
+		<div class="about">
+			<div class="about_black">
+				<img src="photo3.jpg">
+			</div>
+			<div class="about_title">
+				<h2>О центре</h2>
+			</div>
+			<div class="about_white">
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+			<a href="#" class="btn">Оставить заявку <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;" ></i></a>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="foot1">
+			<div style="display:flex; flex-direction:col; align-items:center;">
+			<div class="rect"></div>
+				<h3>ТРЕНАЖЁРНЫЙ</br>ЦЕНТР ЛЕНИ</h3>
+			</div>
+			<div style="display:flex; flex-direction:row; align-items:center;">
+				<i class="fa fa-vk fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
+				<i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
+				<i class="fa fa-envelope-o fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
+				<i class="fa fa-whatsapp fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
+			</div>
+			</div>
+			
+			<div class="foot">
+				<h3>Правила центра</h3>
+				<h3>Политика</br>конфидециальности</br>персональных данных</h3>
+				<h3>Согласие на обработку</br>персональных данных</h3>
+				<h3>Реквизиты платежей</h3>
+				<h3>Программа лояльности</h3>
+			</div>
+			<div class="foot">
+				<h3>Личный кабинет</h3>
+				<h3>Расписание</h3>
+				<h3>Прайс-лист</h3>
+				<h3>Статьи</h3>
+				<h3>Контакты</h3>
+				<h3>Вакансии</h3>
+				<h3>Консультация</h3>
+			</div>
+			
+			<div class="foot">
+				<span style="background-color:#D9D9D9; color:black; padding: 5px 10px 5px 10px; font-size: 24px">Режим работы</span>
+				<h3 align="right"><strong>Пн-Пт: </strong><small>00:00 - 06:00</small></h3>
+				<h3 align="right"><small>07:00 - 23:00</small></h3>
+				<h3 align="right"><strong>Cб-Вс: </strong><small>00:00 - 23:59</small></h3>
+				<h3  align="right" style="margin-top:20px;">Ул. Трудоголик, д.1</h3>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+<script>
+  let slideIndex = 0;
+
+  function showSlide(n) {
+    let slides = document.getElementsByClassName("slide");
+    if (n >= slides.length) {
+      slideIndex = 0;
+    }
+	if (n < 0) {
+      slideIndex = slides.length - 1;
+    }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[slideIndex].style.display = "block";
+  }
+
+  function nextSlide() {
+  slideIndex++;
+    showSlide(slideIndex);
+    
+  }
+
+  function prevSlide() {
+  slideIndex--;
+    showSlide(slideIndex);
+  }
+
+  showSlide(slideIndex);
+</script>
+</body>
+</html>
