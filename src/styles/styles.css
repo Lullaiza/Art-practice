@@ -4,7 +4,9 @@ body {
 }
 
 .container {
-  margin: 0px 166px;
+  margin: 0 auto;
+  width: 1440px;
+  padding: 50px;
 }
 
 .header {
@@ -16,7 +18,7 @@ body {
 
 
 .header-line {
-  padding-top: 50px;
+  padding-top: 20%;
   display: flex;
   align-items: center;
   justify-content: space-around;
