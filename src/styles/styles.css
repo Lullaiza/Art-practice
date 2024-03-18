@@ -1,46 +1,151 @@
-.advent-pro {
-  font-family: "Advent Pro", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
 
 body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-  margin: 0 auto;
+  margin: auto;
   width: 1440px;
-  padding: 50px;
+  background-color: black;
 }
 
-.header {
-  background-image: url(.img/titylnic.jpg);
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
+.menu {
+  background-color: black;
+  height: 110px;
 }
 
-
-.header-line {
-  padding-top: 20px;
+.horizontal {
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
-.header-logo {
+.horizontal1 {
+  display: flex;
+  align-items: right;
+  width: fit-content;
+}
+
+.horizontal2 {
+  display: flex;
+  align-items: right;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.menu_container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.logodiv {
+  height: 70px;
+  width: 325px;
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+.logo {
   object-fit: contain;
 }
 
-.logo__link {
-  display: block;
-  width: 100%;
-  height: 100%;
+.font1 {
+  margin: auto 0 auto auto;
 }
+
+.font_basewhite {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Wremena;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.navigationright {
+  position: relative;
+  height: 70px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.menu_line_block {
+  width: 1440px;
+  height: 3px;
+  margin: 0;
+  background-color: black;
+}
+
+.menu_line {
+  width: 1350px;
+  height: 3px;
+  background-color: #FF64A5;
+  margin: auto 50px auto 50px;
+}
+
+.header-down {
+  height: 670px;
+  margin: 0;
+}
+
+
+.font2 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 56px;
+  line-height: 99px;
+  margin: 0px 0px 0px 60px;
+  position: relative;
+  top: -610px;
+}
+
+.fonth1 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 32px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+
+}
+
+.fonth2 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 32px;
+  line-height: 35px;
+  display: flex;
+  justify-content: left;
+  margin: 55px auto 0px auto;
+
+}
+
+.titylnic {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0px;
+  left: 915px;
+}
+
+.orderbuttom {
+  width: 330px;
+  height: 80px;
+  background-color: #FF64A5;
+  border-radius: 20px;
+  margin-left: 125px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 500px;
+  transition: 0.5s;
+}
+
 
 .logo__img {
   width: 100%;
