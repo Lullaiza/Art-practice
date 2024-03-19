@@ -189,7 +189,7 @@ header{
   }
   
 .about{
-	background-color: #71b378;
+	background-color: #bababa;
 
 	 position: relative;
     width: 100%;
@@ -206,10 +206,6 @@ header{
 	font-family: 'Advent Pro', sans-serif;
 	font-weight: bold;
 	font-size: 32px;
-}
-
-.about_title h2 {
-	font-size: 100px
 }
 
 .about_black{
