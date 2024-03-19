@@ -40,23 +40,23 @@ header{
 }
 
 .nav-item-active:hover {
-	color: #D9D9D9;
+	color: #ffffff;
 }
 
 
-.nav2-item{
-	color: #fafafa;
+.nav2-item2 {
+	color: #ffffff;
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 20px;
 	font-family: calibri;
 }
-.nav2-item-active {
+.nav2-item2-active {
 	transition: color 0.3s linear;
 }
 
-.nav2-item-active:hover {
-	color: rgb(0, 0, 0);
+.nav2-item2-active:hover {
+	color: #000000;
 }
 
 
