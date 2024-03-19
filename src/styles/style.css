@@ -119,27 +119,27 @@ header{
 	display: flex;
 	flex-direction: column;
     position: absolute;
-    top: 110px;
+    top: 120px;
 	left: 146px;
     color: white;
     z-index: 1;
 	font-family: 'Advent Pro', sans-serif;
   }
   .text-overlay h2 {
-    font-size: 100px;
+    font-size: 200px;
   }
   .text-overlay h3 {
     font-size: 26px;
   }
   .text-overlay a {
-	margin-top: 70px;
+	margin-top: 80px;
     color:  #000000;
 	font-family: calibri;
     text-decoration: none;
     font-weight: bold 700;
   }
 .main_photo{
-	width:70px; 
+	width:90px; 
 	margin-left:140px;
 }
 .lkbttn{
