@@ -126,20 +126,20 @@ header{
 	font-family: 'Advent Pro', sans-serif;
   }
   .text-overlay h2 {
-    font-size: 76px;
+    font-size: 100px;
   }
   .text-overlay h3 {
     font-size: 26px;
   }
   .text-overlay a {
-	margin-top: 80px;
+	margin-top: 70px;
     color:  #000000;
 	font-family: calibri;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold 700;
   }
 .main_photo{
-	width:80px; 
+	width:70px; 
 	margin-left:140px;
 }
 .lkbttn{
