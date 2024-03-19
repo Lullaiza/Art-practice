@@ -234,12 +234,12 @@ header{
     font-size: 26px;
 }
 	.rect{
-	width: 100%;
-	
-	;
-	margin-right: 20px;
+		width: 109px;
+		height: 109px;
+		border-radius: 50%;
+		margin-right: 20px;
 	}
-	
+
 .foot{
 	display:flex;
 	flex-direction: column;
