@@ -63,7 +63,7 @@ header{
 .btn{
 	padding: 12px;
 	font-size: 16px;
-	background-color: #D9D9D9;
+	background-color: #1ae100;
 	color:  #000000;
 }
 
@@ -126,7 +126,7 @@ header{
 	font-family: 'Advent Pro', sans-serif;
   }
   .text-overlay h2 {
-    font-size: 150px;
+    font-size: 130px;
   }
   .text-overlay h3 {
     font-size: 26px;
