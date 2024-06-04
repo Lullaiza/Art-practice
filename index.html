@@ -14,20 +14,32 @@
 
 <body>
 	<div class="main_container">
-		<header>
+		<header class="sticky">
 			<img src="src/img/logo-01.png" class="main_photo">
-			<a href="#" class="nav-item nav-item-active">О ЦЕНТРЕ</a>
-			<a href="#" class="nav-item nav-item-active">РАСПИСАНИЕ</a>
-			<a href="#" class="nav-item nav-item-active">АКЦИИ</a>
-			<a href="#" class="nav-item nav-item-active">ПРАЙС-ЛИСТ</a>
-			<a href="#" class="nav-item nav-item-active">КОНТАКТЫ</a>
+			<a href="#about" class="nav-item nav-item-active">О ЦЕНТРЕ</a>
+			<a href="#footer" class="nav-item nav-item-active">РЕЖИМ РАБОТЫ</a>
+			<a href="#photo_list" class="nav-item nav-item-active">АКЦИИ</a>
+			<a href="#buildings" class="nav-item nav-item-active">О КОРПУСАХ</a>
+			<a href="#footer" class="nav-item nav-item-active">КОНТАКТЫ</a>
 			<div class="menu_contact">
 				<span class="nav-item1">+7(999) 111-00-11</span>
 				<!-- <span class="nav-item"><p>⠀</p></span> -->
 				<span class="nav-item">Ул.Трудоголик, д.1</span>
 			</div>
-			<a href="#" class="btn2 nav-item lkbttn">Личный кабинет <i class="fa fa-chevron-right" aria-hidden="true"
-					style="margin-left:8px;"></i></a>
+			<a onclick="window.dialog1.showModal()" class="btn2 nav-item lkbttn">Личный кабинет <i
+					class="fa fa-chevron-right chevron" aria-hidden="true"></i></a>
+
+
+			<dialog id="dialog1" class="dialog1">
+				я модальное окно
+				<button type="button" onclick="window.dialog1.close()">
+					Закрыть
+				</button>
+			</dialog>
+
+
+
+
 		</header>
 
 		<div class="slider-container">
@@ -42,31 +54,31 @@
 				<h2>ОФЛАЙН</h2>
 				<h3>ТРЕНАЖЁРНЫЙ</br>ЦЕНТР ЛЕНИ</h3>
 				<div class="click">
-					<a href="#" class="btn nav-item lkbttn2">Записаться на бесплатную пробную тренировку онлайн <i
-							class="fa fa-chevron-right" aria-hidden="true" style="margin-left:8px;"></i></a>
+					<a href="#application" class="btn nav-item lkbttn2">Записаться на бесплатную пробную тренировку
+						онлайн <i class="fa fa-chevron-right chevron" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
 
-		<div class="photo_list">
+		<div id="photo_list" class="photo_list">
 			<div class="photo_el">
-				<img src="src/img/ocna-01.jpg"></img>
-				<a href="#" class="btn2 bttn2">Подробнее <i class="fa fa-chevron-right" aria-hidden="true"
-						style="margin-left:8px;"></i></a>
+				<img src="src/img/ocna-01.jpg">
+				<a href="#" class="btn2 bttn2">Подробнее об акции «Как панда»<i class="fa fa-chevron-right chevron"
+						aria-hidden="true"></i></a>
 			</div>
 			<div class="photo_el">
 				<img src="src/img/ocna-02.jpg">
-				<a href="#" class="btn2 bttn2">Подробнее <i class="fa fa-chevron-right" aria-hidden="true"
-						style="margin-left:8px;"></i></a>
+				<a href="#" class="btn2 bttn2">Подробнее об акции «Подзарядка»<i class="fa fa-chevron-right chevron"
+						aria-hidden="true"></i></a>
 			</div>
 			<div class="photo_el">
 				<img src="src/img/ocna-03.jpg">
-				<a href="#" class="btn2 bttn2">Подробнее <i class="fa fa-chevron-right" aria-hidden="true"
-						style="margin-left:8px;"></i></a>
+				<a href="#" class="btn2 bttn2">Подробнее об акции «Уже иду»<i class="fa fa-chevron-right chevron"
+						aria-hidden="true"></i></a>
 			</div>
 		</div>
 
-		<div class="about">
+		<div id="about" class="about">
 			<div class="about_black">
 				<img src="src/img/deva_Монтажная область 1.jpg">
 			</div>
@@ -82,8 +94,8 @@
 					фирменные свечи воссоздают природные ароматы. Также в&nbsp;залах установлены специальные палатки,
 					в&nbsp;которых посетитель может скрыться от&nbsp;посторонних взглядов. Наши панды&nbsp;&mdash;
 					специалисты в&nbsp;тренинге прокрастинации.</span>
-				<a href="#" class="btn nav-item lkbttn2">Оставить заявку <i class="fa fa-chevron-right"
-						aria-hidden="true" style="margin-left:8px;"></i></a>
+				<a href="#application" class="btn nav-item lkbttn2">Оставить заявку <i
+						class="fa fa-chevron-right chevron" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
@@ -92,7 +104,55 @@
 
 
 
-		<div class="application">
+		<div id="buildings" class="buildings">
+
+			<div class="building">
+				<h2 class="application_title">
+					Тренажёрные</br>корпусы
+				</h2>
+				<a href="#buildings" class="buildings_btn nav-item lkbttn2">Подробнее<i
+						class="fa fa-chevron-right chevron" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="building one">
+				<img class="building_img" src="src/img/corps5.jpg">
+				<span class="building_text"> jdfbgdu bjvihvi dshlvkn dslknv lkdhx nlvihdsoi hgvoi jdfbgdu bjvihvi
+					dshlvkn dslknv lkdhx nlvihdsoi hgvoi</span>
+			</div>
+
+			<div class="building one">
+				<img class="building_img" src="src/img/corps1.jpg">
+				<span class="building_text"> jdfbgdu bjvihvi dshlvkn dslknv lkdhx nlvihdsoi hgvoi jdfbgdu bjvihvi
+					dshlvkn dslknv lkdhx nlvihdsoi hgvoi</span>
+			</div>
+
+			<div class="building one">
+				<img class="building_img" src="src/img/corps4.jpg">
+				<span class="building_text"> jdfbgdu bjvihvi dshlvkn dslknv lkdhx nlvihdsoi hgvoi jdfbgdu bjvihvi
+					dshlvkn dslknv lkdhx nlvihdsoi hgvoi</span>
+			</div>
+
+			<div class="building one">
+				<img class="building_img" src="src/img/corps3.jpg">
+				<span class="building_text"> jdfbgdu bjvihvi dshlvkn dslknv lkdhx nlvihdsoi hgvoi jdfbgdu bjvihvi
+					dshlvkn dslknv lkdhx nlvihdsoi hgvoi</span>
+			</div>
+
+			<div class="building one">
+				<img class="building_img" src="src/img/corps2.jpg">
+				<span class="building_text"> jdfbgdu bjvihvi dshlvkn dslknv lkdhx nlvihdsoi hgvoi jdfbgdu bjvihvi
+					dshlvkn dslknv lkdhx nlvihdsoi hgvoi</span>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+		<div id="application" class="application">
 			<h2 class="application_title">
 				Впервые в нашем центре? Так не ленитесь и запишитесь</br>на бесплатное посещение!
 			</h2>
@@ -103,97 +163,77 @@
 							<span class="indent2">Фамилия</span>
 							<input class="write_type" type="text" id="name" placeholder="Иванов" required />
 						</label>
-
 						<label class="indent" for="name">
 							<span class="indent2">Имя</span>
 							<input class="write_type" type="text" id="name" placeholder="Иван" required />
 						</label>
-
 						<label class="indent" for="name">
 							<span class="indent2">Отчество</span>
 							<input class="write_type" type="text" id="name" placeholder="Иванович" required />
 						</label>
-
 						<label class="indent">
 							<span class="indent2">Email</span>
 							<input class="write_type" type="email" placeholder="www@www.ru" required />
 						</label>
-
 						<div class="tren">
 							<label class="indent">
 								<span class="indent2">Дата</span>
 								<input class="write_type" type="date" />
 							</label>
-
 							<label class="indent">
-								<span class="indent2">Время</span>
+								<span class="indent2">Время тренировки</span>
 								<input class="write_type" type="time" />
 							</label>
 						</div>
 					</div>
 				</form>
-				<a href="#" class="btn nav-item lkbttn2">Оставить заявку<i class="fa fa-chevron-right"
-					aria-hidden="true" style="margin-left:8px;"></i></a>
-
+				<a href="#application" class="application_btn nav-item lkbttn2">Отправить заявку<i
+						class="fa fa-chevron-right chevron" aria-hidden="true"></i></a>
 			</div>
-
 			<div class="application_foto">
 				<img src="src/img/application.jpg">
 			</div>
-
-
-
-
 		</div>
 
-
-
-
-
-
-
-
-		<div class="footer">
+		<div id="footer" class="footer">
 			<div class="foot1">
-				<div style="display:flex; flex-direction:col; align-items:center;">
+				<div class="logo">
 					<div class="rect"><img src="src/img/logo-02.png"></div>
 					<h3>ТРЕНАЖЁРНЫЙ</br>ЦЕНТР ЛЕНИ</h3>
 				</div>
-				<div style="display:flex; flex-direction:row; align-items:center; margin-top:70px ;">
-					<i class="fa fa-vk fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
-					<i class="fa fa-twitter-square fa-2x" aria-hidden="true"
-						style="color:black; margin-right:30px;"></i>
-					<i class="fa fa-envelope-o fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
-					<i class="fa fa-whatsapp fa-2x" aria-hidden="true" style="color:black; margin-right:30px;"></i>
+				<div class="icons">
+					<a href="https://vk.com/id187624516" class="nav3-item3 nav3-item3-active fa fa-vk fa-2x icons2" aria-hidden="true"></a>
+					<a href="https://t.me/Lullaiza" class="nav3-item3 nav3-item3-active fa fa-telegram fa-2x icons2" aria-hidden="true"></a>
+					<a href="mailto:elizoveta.chelog@mail.ru" class="nav3-item3 nav3-item3-active fa fa-envelope-o fa-2x icons2" aria-hidden="true"></a>
+					<a href="https://www.whatsapp.com/" class="nav3-item3 nav3-item3-active fa fa-whatsapp fa-2x icons2" aria-hidden="true"></a>
 				</div>
 			</div>
 
 			<div class="foot">
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Правила центра</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Политика</br>конфидециальности</br>персональных
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Правила центра</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Политика</br>конфидециальности</br>персональных
 						данных</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Согласие на обработку</br>персональных данных</a>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Согласие на обработку</br>персональных данных</a>
 				</h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Реквизиты платежей</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Программа лояльности</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Реквизиты платежей</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Программа лояльности</a> </h3>
 			</div>
 			<div class="foot">
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Личный кабинет</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Расписание</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Прайс-лист</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Статьи</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Контакты</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Вакансии</a> </h3>
-				<h3> <a href="#" class="nav2-item2 nav2-item2-active">Консультация</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Личный кабинет</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Расписание</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Прайс-лист</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Статьи</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Контакты</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Вакансии</a> </h3>
+				<h3> <a href="#footer" class="nav2-item2 nav2-item2-active">Консультация</a> </h3>
 			</div>
 
 			<div class="foot">
-				<span style="background-color:#E03F38; color:black; padding: 5px 10px 5px 10px; font-size: 24px">Режим
-					работы</span>
+				<span class="mode">Режим работы</span>
 				<h3 align="right"><strong>Пн-Пт: </strong><small>00:00 - 06:00</small></h3>
 				<h3 align="right"><small>07:00 - 23:00</small></h3>
 				<h3 align="right"><strong>Cб-Вс: </strong><small>00:00 - 23:59</small></h3>
-				<h3 align="right" style="margin-top:75px;">Ул.Трудоголик, д.1</h3>
+				<h3 align="right" class="mode2"> <a href="https://yandex.ru/maps/47/nizhny-novgorod/?ll=44.006520%2C56.326799&z=11" class="nav2-item2 nav2-item2-active"> Ул.Трудоголик, д.1 </a> </h3>
 			</div>
 		</div>
 
