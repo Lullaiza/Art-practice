@@ -25,17 +25,12 @@ body {
 }
 
 header {
-	width: 100%;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	background-color: #ffffff;
 	border-bottom: 3px solid #454545;
 	align-items: center;
 	height: 90px;
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
 	z-index: 9999;
 }
@@ -123,19 +118,17 @@ header {
 }
 
 .chevron {
-	margin-left:8px;
+	margin-left: 8px;
 }
 
 .slider-container {
 	position: relative;
-	width: 100%;
-	max-height: 645px;
+	height: 645px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 .slides {
-	display: flex;
 	transition: transform 0.5s ease;
 	opacity: 0.9;
 	height: 645px;
@@ -152,7 +145,7 @@ header {
 .slide img {
 	background-size: cover;
 	width: 100%;
-	height: auto;
+	height: 645px;
 }
 
 .arrow {
@@ -182,13 +175,10 @@ header {
 }
 
 .text-overlay {
-	/* display: flex; */
-	/* flex-direction: column; */
 	position: absolute;
 	top: 120px;
 	left: 146px;
 	color: white;
-	/* z-index: 1; */
 	font-family: 'Advent Pro', sans-serif;
 }
 
@@ -224,13 +214,15 @@ header {
 .photo_list {
 	display: flex;
 	background-color: #FFFFFF;
-	width: 100%;
-	height: 430px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 125px;
+	justify-content: space-between;
 }
 
 .photo_el {
-	margin: 1rem;
-	width: full;
+	width: 460px;
 }
 
 .photo_el img {
@@ -250,13 +242,12 @@ header {
 }
 
 .about {
+	display: flex;
+	height: 650px;
 	background-color: #d1d1d1;
-
+	padding: 125px;
 	position: relative;
-	width: 100%;
-	height: 900px;
-	margin: 0 auto;
-	overflow: hidden;
+	align-items: center;
 }
 
 .about_title {
@@ -282,26 +273,27 @@ header {
 }
 
 .about_black img {
-	width: 100%;
-	height: auto;
+	width: 775px;
+	height: 650px;
 	background-size: cover;
 }
 
 .about_white {
+	padding: 50px;
 	display: flex;
 	flex-direction: column;
 	position: absolute;
 	top: 213px;
 	right: 125px;
-	height: 474px;
-	width: 775px;
+	height: 375px;
+	width: 675px;
 	background-color: #FFFFFF;
+	justify-content: space-between;
 }
 
 .about_white span {
 	font-family: Rubik;
 	font-size: 20px;
-	margin: 48px;
 	height: 300px;
 }
 
@@ -310,7 +302,6 @@ header {
 	font-family: Rubik;
 	text-decoration: none;
 	font-weight: bold;
-	margin-left: 48px;
 	display: flex;
 	align-items: flex-end;
 }
@@ -323,7 +314,6 @@ header {
 	align-content: space-between;
 	background-color: #ffffff;
 	padding: 125px;
-	/* height: 900px; */
 	overflow: hidden;
 	position: relative;
 }
@@ -393,50 +383,44 @@ header {
 	opacity: 1;
 }
 
-
-
-
-
 .price_title {
-    font-family: 'Advent Pro', sans-serif;
-    font-weight: bold;
-    font-size: 48px;
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
 }
 
 .price {
 	background-color: #d1d1d1;
 	padding: 125px;
-	height: 2000px;
+	height: 650px;
 	overflow: hidden;
 	position: relative;
 }
 
 .price_container {
 	display: flex;
-    margin-top: -57px;
-    align-items: center;
+	margin-top: -57px;
+	align-items: center;
 }
 
 .price_list {
-    display: flex;
-    flex-direction: column;
-    /* position: absolute; */
+	display: flex;
+	flex-direction: column;
 	padding: 100px;
-    /* top: 220px;
-    left: 125px; */
-    height: 257px;
-    width: 316px;
-    background-color: #FFFFFF;
+	height: 257px;
+	width: 316px;
+	background-color: #FFFFFF;
 	justify-content: space-between;
 	font-family: Rubik;
-    font-size: 25px;
-    color: #000000;
+	font-size: 25px;
+	color: #000000;
 	margin-right: -100px;
-    z-index: 1;
+	z-index: 1;
 }
 
 .cost {
 	text-decoration: underline;
+	color: #000000;
 }
 
 .price_btn {
@@ -449,30 +433,29 @@ header {
 	margin-top: 30px;
 }
 
+.price_btn:hover {
+	padding: 12px;
+	font-size: 16px;
+	background-color: #d4d4d4;
+}
+
 .price_box {
-    /* display: flex;
-    position: relative;
-    /* top: 125px;
-    right: 125px; */
-    height: 650px;
-    width: 775px;
-    background-color: #454545;
-    background-size: cover; */
+	height: 650px;
+	width: 775px;
+	background-color: #454545;
+	background-size: cover;
 }
 
 .price_item {
-    position: absolute;
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-    padding: 65px;
+	padding: 65px;
 	padding-left: 165px;
-	/* top: 125px;
-    right: 125px; */
-    height: 520px;
-    width: 545px;
-    background-color: #454545;
-    /* background-size: cover; */
+	height: 520px;
+	width: 545px;
+	background-color: #454545;
 }
 
 .free_name {
@@ -495,21 +478,13 @@ header {
 
 .free_block {
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
+	justify-content: space-between;
+	align-items: center;
 }
-
-
-
-
-
-
-
 
 .application {
 	background-color: #ffffff;
 	padding: 125px;
-	/* height: 900px; */
 	overflow: hidden;
 	position: relative;
 }
@@ -525,10 +500,8 @@ header {
 
 .application_input {
 	display: flex;
-	/* position: absolute; */
 	margin-top: 50px;
-	/* height: 550px; */
-	width: 800px;
+	width: 791px;
 	padding: 50px;
 	background-color: #d1d1d1;
 	background-size: cover;
@@ -597,7 +570,6 @@ header {
 }
 
 .application_btn {
-	display: inline-block;
 	padding: 12px;
 	font-size: 16px;
 	background-color: #71b378;
