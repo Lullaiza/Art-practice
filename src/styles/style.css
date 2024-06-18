@@ -372,6 +372,7 @@ body {
 	font-family: 'Advent Pro', sans-serif;
 	font-weight: bold;
 	font-size: 48px;
+	width: 220px;
 }
 
 .price {
@@ -411,6 +412,11 @@ body {
 .cost {
 	text-decoration: underline;
 	color: #000000;
+	transition: color 0.3s linear;
+}
+
+.cost:hover {
+	color: #E03F38;
 }
 
 .btn_price {
