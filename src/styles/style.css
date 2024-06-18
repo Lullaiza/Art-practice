@@ -175,6 +175,7 @@ body {
 
 .text-overlay h2 {
 	font-size: 26px;
+	width: 150px;
 }
 
 .text-overlay a {
@@ -399,7 +400,7 @@ body {
 	font-size: 25px;
 	color: #000000;
 	margin-right: -100px;
-	z-index: 1;
+	z-index: 3;
 }
 
 .price_list button {
@@ -434,6 +435,14 @@ body {
 	height: 520px;
 	width: 545px;
 	background-color: #6f6f6f;
+	opacity: 0;
+	visibility:hidden;
+	transition: 0.3s;
+}
+
+.price_item_active {
+	opacity: 1;
+	visibility: visible;
 }
 
 .free_name {
@@ -463,6 +472,7 @@ body {
 .free_description {
 	display: flex;
     flex-direction: column;
+	width: 320px;
 }
 
 .application {
@@ -502,9 +512,15 @@ body {
 	position: absolute;
 	top: 235px;
 	right: 125px;
-	height: 516px;
+	height: 508px;
 	width: 540px;
 	background-color: #c2c2c2;
+}
+
+.applic {
+	background-size: cover;
+    width: 100%;
+    max-height: 508px;
 }
 
 .form {
@@ -582,6 +598,7 @@ body {
 	color: white;
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 26px;
+	width: 302px;
 	justify-content: space-between;
 	flex-direction: column;
 }
@@ -619,6 +636,10 @@ li::marker {
     flex-direction: column;
     color: white;
     justify-content: space-between;
+}
+
+.foot_1 {
+	width: 228px;
 }
 
 .icons-active {
