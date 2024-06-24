@@ -383,21 +383,17 @@
 
 
 	<script>
-		const links = [].slice.call(document.querySelectorAll(".cost")); // выбираем все теги с классом cost
+		const links = [].slice.call(document.querySelectorAll(".cost"));
 		const priceItems = [].slice.call(
 			document.querySelectorAll(".price_item")
-		); // выбираем все теги с классом price_item
+		);
 		links.forEach((e) => {
-			// перебираем элементы по-очереди
 			e.addEventListener("click", function (link) {
-				// при клике на каждый элемент будет выполнятся функция ниже
-				link.preventDefault();
-				const selector = link.target.getAttribute("href"); // вытаскиваем селектор, например #targetBlock
-				const section = document.querySelector(selector); // получаем блок к котрому скролим, например <div class="block_on_block container" id="targetBlock">
+				const selector = link.target.getAttribute("href");
+				const section = document.querySelector(selector);
 
 				if (section) {
 					priceItems.forEach((p) => {
-						// перебираем блоки с ценами по-очереди
 						p.classList.remove("price_item_active");
 					});
 					section.classList.add("price_item_active");

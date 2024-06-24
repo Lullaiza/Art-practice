@@ -724,26 +724,3 @@ li::marker {
 .map-active:hover {
 	color: #E03F38;
 }
-
-/* @media screen and (max-width: 1440px) {
-	.nav-item {
-		font-size: 16px;
-	}
-}
-
-@media screen and (max-width: 1100px) {
-	.lkbttn {
-		margin-right: 0px;
-	}
-
-	.logo-01 {
-		width: 100px;
-		margin-left: 0px;
-	}
-}
-
-@media screen and (max-width: 850px) {
-	header {
-		display: none;
-	}
-} */
